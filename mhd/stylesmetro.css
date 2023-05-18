@@ -1,0 +1,196 @@
+body {
+    background-image: url(pics/metrobcg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    word-spacing: 0.15em;
+    margin: 0px;
+    font-family: "Courier", serif;
+    color: white;
+    font-size: large;
+}
+
+li:first-child {
+    text-decoration: 1px underline white !important;
+    list-style-image: none;
+    list-style-type: none;
+    font-size: 110%;
+    padding-bottom: 5px;
+}
+
+.seznam {
+    margin: auto;
+    margin-bottom: 50px;
+    width: fit-content;
+    border: 2px dotted white;
+    box-shadow: 4px 4px 5px rgba(180, 180, 180, 0.8);
+}
+
+hr {
+    color: white;
+    height: 0px;
+    background-color: white;
+}
+
+.block {margin-top: 50px;
+    margin-bottom: 0px;
+
+}
+h1 {
+    color: #c9ab00;
+    text-decoration: none;
+    border: 4px;
+    border-width: 50px;
+    border-color: #c9ab00;
+    border-style: dotted;
+    font-family: Monospace;
+    font-size: 1.75em;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-family: "Courier", serif;
+    margin: 10px;
+}
+
+img {flex-wrap: wrap;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    border: 15px;
+    border-style: solid;
+    border-color: gray;
+    margin: 50px;
+    box-shadow: 8px 0px 15px -2px darkgray;
+}
+
+ol {text-align: left;
+    margin-bottom: 50px;
+    list-style-position: outside;
+    padding-left: 40px !important;
+    list-style-image: url(pics/metro-yellow.png);
+    padding: 10px;
+    line-height: 1.3em;
+    
+}
+.srcimg {padding: none;
+    border: 7px;
+    border-style: solid;
+    padding: 5px;
+    border-color: gray;
+    width: 80px;
+    height: 53px;
+    box-shadow: 8px 0px 15px -2px darkgray;
+}
+
+a {font-family: 'Courier New', Courier, monospace;
+    color: #c9ab00
+    
+}
+a:hover {
+    color: darkgoldenrod;
+    
+}
+
+
+.ref {text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+  
+
+::-webkit-scrollbar-track {
+    border-radius: 1px;
+    background-color: rgba(37, 18, 18, 0.897);
+}
+   
+  
+::-webkit-scrollbar-thumb {
+    background: #c9ab00; 
+    border-radius: 3px;
+}
+ 
+::-webkit-scrollbar-thumb:hover {
+    background: #6b6306; 
+}
+
+
+a:active {
+    color: darkorange;
+}
+
+#dark {background-color: rgba(126, 126, 126, 0.311);
+    background-size: auto;
+    padding-bottom: 2%;
+    text-shadow: whitesmoke;
+    padding-top: 2%;
+    margin-bottom: 50px;
+}
+
+h2 {
+    color: #c9ab00;
+    text-decoration: dotted;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.25em;
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+
+footer {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    background-color: rgba(236, 228, 228, 0.089);
+    color: white;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.column {
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    border-right: 2px solid #ddd;
+    text-align: center;
+}
+
+
+.column:last-child {
+    margin-right: 0;
+    border-right: none;
+}
+
+.buttonClass {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+  
+@media (max-width: 620px) {
+    img {
+        width: 100%;
+        height: auto;
+        padding: none;
+        margin: none;
+        border: none;
+    }
+}

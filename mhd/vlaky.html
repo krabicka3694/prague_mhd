@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="stylesvlaky.css">
+   <script src="javascript.js"></script>
+   <title>Vlaky</title>
+   <link rel="shortcut icon" type="image/png" href="pics/logo.png">
+  </head>
+  <body>
+    <div class="block">
+     <h1>Vlaky</h1>
+
+
+
+    <div id="dark"> 
+      <h2>Rozcestník</h2>
+        <p class="ref">
+          <a href="tramvaje.html">tramvaje</a>
+          <a href="metro.html">metro</a>
+          <a href="doporuceni.html">hezká místa</a>
+          <a href="galerie.html">galerie</a>
+          <a href="index.html">zpátky</a>
+        </p>
+    </div>
+
+    <map name="map">
+        <area shape=circle coords="500,350,260" href="#pasmo1" title="pásmo 0, P, B">
+        <area shape=rect coords="0, 0, 1000, 650" href="#pasmo2" title="pásma za Prahou">
+    </map>
+    <div class="tooltip"></div>
+
+        <div class="nadrazi">
+            <section class="up">
+                <h3>Nádraží v systému PID</h3>
+                <div class="left">
+                <img src="pics/pásmapidvlaky.png" alt="map of prague train stations" usemap="#map">
+                </div>
+            </section>
+            <div class="pasma">
+                <div id="pasmo1">
+                    V pásmech 0, P a B platí lítačka
+                    a to i ve vlacích mezi všemi nádražími. Lítačka (a další PID jízdenky) ale platí pouze v linkách ČD.
+                </div>
+                <div id="pasmo2">
+                  V pásmech za Prahou je nejlepší si do vlaků koupit jízdenku ČD, nebo, pokud jezdíte pravidelně, 
+                  roční kupón na lítačku s mezipásmovou platností. Je třeba ale dát pozor na jeho platnost, protože platní pouze ve vlacích
+                  ČD a v lince S49.
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    <footer> 
+      <div class="container">
+        <div class="column">
+      <p><a onclick="ukazCas()" class="buttonClass">Kolik je hodin?</a>
+        <span id="hodiny"></span></p>
+        </p>
+      </div>
+      <div class="column">
+        <p>created by: krabicka3693</p>
+        <p>&copy;2023</p>
+      </div>
+      <div class="column">
+        <a href="imagesources.txt">zdroje</a>
+      </div>
+      </div>
+    </footer>
+    
+
+  </div>
+ 
+  </body>
+</html>

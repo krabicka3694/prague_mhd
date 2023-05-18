@@ -1,0 +1,248 @@
+body {
+    background-image: url(pics/bcg.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    word-spacing: 0.15em;
+    margin: 0px;
+    font-family: "Courier", serif;
+    color: white;
+    font-size: large;
+}
+
+
+hr {
+    color: white;
+    height: 0px;
+    background-color: white;
+}
+
+.block {margin-top: 50px;
+    margin-bottom: 0px;
+
+}
+h1 {
+    color: red;
+    text-decoration: none;
+    border: 4px;
+    border-width: 50px;
+    border-color: red;
+    border-style: dotted;
+    font-family: Monospace;
+    font-size: 1.75em;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-family: "Courier", serif;
+    margin: 10px;
+}
+
+img {flex-wrap: wrap;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    border: 15px;
+    border-style: solid;
+    border-color: gray;
+    margin: 50px;
+    box-shadow: 8px 0px 15px -2px darkgray;
+}
+
+ol {text-align: left;
+    font-family: "Courier", serif;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    list-style-position: inside;
+    list-style-type: lower-latin;
+    padding: 10px;
+    border: 15px;
+    border-style: solid;
+    border-color: gray;
+    margin: 50px;
+    font-weight: bold;
+}
+
+
+#div1 {column-count: 2;
+    column-fill: balance;
+    column-gap: 50px;
+    column-width: 3px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#down {flex-wrap: wrap;
+    width: 100%;
+    height: 15em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    padding: none;
+    margin: 0px;
+    word-spacing: 0em;
+}
+
+.srcimg {padding: none;
+    border: 7px;
+    border-style: solid;
+    padding: 5px;
+    border-color: gray;
+    width: 80px;
+    height: 53px;
+    box-shadow: 8px 0px 15px -2px darkgray;
+}
+
+a {font-family: 'Courier New', Courier, monospace;
+    color: red
+    
+}
+a:hover {
+    color: darkgoldenrod;
+    
+}
+
+
+.ref {text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+  
+
+::-webkit-scrollbar-track {
+    border-radius: 1px;
+    background-color: rgba(32, 10, 34, 0.897);
+}
+   
+  
+::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 3px;
+}
+ 
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+}
+
+
+a:active {
+    color: darkorange;
+}
+
+#dark {background-image: url("pics/citybcg.jpg");
+    background-size: auto;
+    padding-bottom: 2%;
+    text-shadow: whitesmoke;
+    padding-top: 2%;
+    margin-bottom: 50px;
+}
+
+#section2 {text-align: center;
+}
+
+h2 {
+    color: red;
+    text-decoration: dotted;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.25em;
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+}
+.right {
+    padding: 20px;
+    margin: 30px;
+    float: left;
+    width: 24%;
+    text-align: center;
+    color: white;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+   
+    
+}
+
+.left {
+    padding: 20px;
+    margin: 30px;
+    float: inline-end;
+    width: 75%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.columns  {
+   display: flex;
+   backdrop-filter: blur(3px);
+
+}
+
+
+footer {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    background-color: rgba(236, 228, 228, 0.089);
+    color: white;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.column {
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    border-right: 2px solid #ddd;
+    text-align: center;
+}
+
+
+.column:last-child {
+    margin-right: 0;
+    border-right: none;
+}
+
+.buttonClass {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+  
+@media (max-width: 620px) {
+    .left,
+    .right {
+      display: block;
+      width: 100%;
+      float: none;
+    }
+    .columns {
+        display: block !important;
+    }
+    .img {
+        transform: scale(0.6);
+        padding: 0%;
+        transform-origin: left;
+    }
+}

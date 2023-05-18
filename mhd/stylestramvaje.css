@@ -1,0 +1,295 @@
+body {
+    background-image: url(pics/tramvajbcg.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    word-spacing: 0.15em;
+    margin: 0px;
+    font-family: "Courier", serif;
+    color: white;
+    font-size: large;
+}
+
+.red {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 0.5%;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+.tramvaje {
+    border: none;
+    padding: 0.5%;
+    text-align: center;
+}
+
+.leftborder {
+   border-left: 1px dotted white;
+   text-align: center;
+}
+
+.provoz {
+    width: 33%;
+ }
+ 
+#modelytramvají {
+   width: 100%;
+}
+table {
+    width: 100%;
+    background-color: rgba(236, 228, 228, 0.289);
+}
+
+th  {
+    padding: 2%;
+    font-size: 20px;
+    text-decoration: underline;
+    border-bottom: 2px solid white;
+}
+
+td {
+    padding: 2%;
+    border-bottom: 1px dotted white;
+    border-right: 1px dotted white;
+}
+
+hr {
+    color: white;
+    height: 0px;
+    background-color: white;
+}
+
+.block {margin-top: 50px;
+    margin-bottom: 0px;
+
+}
+h1 {
+    color: lightblue;
+    text-decoration: none;
+    border: 4px;
+    border-width: 50px;
+    border-color: lightblue;
+    border-style: dotted;
+    font-family: Monospace;
+    font-size: 1.75em;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-family: "Courier", serif;
+    margin: 10px;
+}
+
+.blur {
+    backdrop-filter: blur(5px);
+}
+img {flex-wrap: wrap;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    border: 15px;
+    border-style: solid;
+    border-color: gray;
+    margin: 50px;
+    box-shadow: 8px 0px 15px -2px darkgray;
+}
+
+ol {text-align: left;
+    font-family: "Courier", serif;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    list-style-position: inside;
+    list-style-type: lower-latin;
+    padding: 10px;
+    border: 15px;
+    border-style: solid;
+    border-color: gray;
+    margin: 50px;
+    font-weight: bold;
+}
+
+ul {text-indent: 50px;
+    list-style-image: url("pics/car.png");
+    font-weight: normal;
+}
+
+#div1 {column-count: 2;
+    column-fill: balance;
+    column-gap: 50px;
+    column-width: 3px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+.srcimg {padding: none;
+    border: 7px;
+    border-style: solid;
+    padding: 5px;
+    border-color: gray;
+    width: 80px;
+    height: 53px;
+    box-shadow: 8px 0px 15px -2px darkgray;
+}
+
+a {font-family: 'Courier New', Courier, monospace;
+    color: lightblue
+    
+}
+a:hover {
+    color: darkgoldenrod;
+    
+}
+
+
+.ref {text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+  
+
+::-webkit-scrollbar-track {
+    border-radius: 1px;
+    background-color: rgba(32, 10, 34, 0.897);
+}
+   
+  
+::-webkit-scrollbar-thumb {
+    background: lightblue; 
+    border-radius: 3px;
+}
+ 
+::-webkit-scrollbar-thumb:hover {
+    background: #18055c; 
+}
+
+:visited {
+    color: lightblue;
+}
+
+a:active {
+    color: darkorange;
+}
+
+#dark {
+    background-size: auto;
+    background-color: rgba(236, 228, 228, 0.089);
+    padding-bottom: 2%;
+    text-shadow: whitesmoke;
+    padding-top: 2%;
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+
+#section2 {text-align: center;
+}
+
+h2 {
+    color: lightblue;
+    text-decoration: dotted;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.25em;
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+}
+.right {
+    padding: 20px;
+    margin: 2%;
+    float: left;
+    width: 40%;
+    text-align: center;
+    color: white;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    
+}
+
+.left {
+    padding: 20px;
+    margin: 2%;
+    float: inline-end;
+    width: 60%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.columns  {
+   display: flex;    
+}
+
+
+footer {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    background-color: rgba(236, 228, 228, 0.089);
+    color: white;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column {
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    border-right: 2px solid #ddd;
+    text-align: center;
+}
+
+
+.column:last-child {
+    margin-right: 0;
+    border-right: none;
+}
+
+.buttonClass {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+
+  
+  
+@media (max-width: 620px) {
+    .left,
+    .right {
+      display: block;
+      width: 100%;
+      float: none;
+    }
+    .columns {
+        display: block !important;
+    }
+    #modelytramvají {
+        transform: scale(0.5);
+        transform-origin: left;
+    }
+
+}
